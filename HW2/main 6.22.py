@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 """
-Created on Tue Mar  7 22:15:38 2023
-
-@author: a1233
+Tobenna Nwufo
+CISC 2348
+2054054
 """
 
 x1=int(input())
