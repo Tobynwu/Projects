@@ -17,8 +17,11 @@ def find(dateLine):
        return str(mm)+"/"+day+"/"+year
    except:
         return ""
-with open("inputDates.txt") as f:
- for x in f.readlines():
-      if x.strip() != "-1":
-         print(find(x.strip()))
+with open("inputDates.txt") as f: 
+   for x in f.readlines():
+      if x.strip() != "-1": 
+         result = find(x.strip()) 
+         if result != "": 
+            with open("parsedDates.txt","a+") as w:
+               w.write(result+"\n") 
  
